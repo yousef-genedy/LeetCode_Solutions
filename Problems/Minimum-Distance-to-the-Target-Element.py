@@ -7,9 +7,5 @@
 7            if nums[i] == target:
 8                res = min(res, abs(i - start))
 9
-10        for i in range(n - 1, -1, -1):
-11            if nums[i] == target:
-12                res = min(res, abs(i - start))
-13
-14        return res
-15
+10        return res
+11
